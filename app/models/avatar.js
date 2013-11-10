@@ -1,5 +1,5 @@
 var Avatar = DS.Model.extend({
-             url: DS.attr('string'),
+             uri: DS.attr(),
              focusCenter: DS.attr(),
              focusWidth: DS.attr(),
              width: DS.attr(),

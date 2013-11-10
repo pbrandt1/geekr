@@ -191,12 +191,12 @@ var setupUserAPI = function(expressApp) {
                 displayName: users[i].displayName,
                 lastName: users[i].lastName,
                 firstName: users[i].firstName,
-                location: users[i].location,
                 distanceFromMe: 0, //TODO implement location tools. get location from client
                 picture: users[i].picture,
                 tagline: users[i].tagline,
                 sexPreference: users[i].sexPreference,
-                globalRating: users[i].globalRating
+                globalRating: users[i].globalRating,
+                location: users[i].location
             })
         }
         res.send({users: returnVal});
@@ -212,12 +212,12 @@ var setupUserAPI = function(expressApp) {
                 displayName: users[i].displayName,
                 lastName: users[i].lastName,
                 firstName: users[i].firstName,
-                location: users[i].location,
                 distanceFromMe: 0, //TODO implement location tools. get location from client
                 avatar: users[i].picture.id,
                 tagline: users[i].tagline,
                 sexPreference: users[i].sexPreference,
-                globalRating: users[i].globalRating
+                globalRating: users[i].globalRating,
+                location: users[i].location
             });
             avatarArr.push(users[i].picture);
         }
