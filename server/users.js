@@ -214,7 +214,7 @@ var setupUserAPI = function(expressApp) {
                 firstName: users[i].firstName,
                 location: users[i].location,
                 distanceFromMe: 0, //TODO implement location tools. get location from client
-                avatar_id: users[i].picture.id,
+                avatar: users[i].picture.id,
                 tagline: users[i].tagline,
                 sexPreference: users[i].sexPreference,
                 globalRating: users[i].globalRating
