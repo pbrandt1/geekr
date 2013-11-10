@@ -1,6 +1,6 @@
 var Helpers = require('../helpers');
 
-var scripts = '{app,tests}/**/*.{js,coffee}',
+var scripts = '{app,tests,servers}/**/*.{js,coffee}',
     templates = 'app/templates/**/*.{hbs,handlebars,hjs,emblem}',
     styles = 'app/styles/**/*.{css,sass,scss,less,styl}',
     indexHTML = 'app/index.html',
