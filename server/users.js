@@ -29,8 +29,8 @@ var MOCK_USERS = [
             uri: "/img/avatars/a1.jpg",
             width: 816,
             height: 513,
-            focusCenter: {x: 400, y: 256},
-            focusWidth: 256
+            focusCenter: {x: 306, y: 247},
+            focusWidth: 221
         }
     },
     {
@@ -54,7 +54,7 @@ var MOCK_USERS = [
             width: 816,
             height: 513,
             focusCenter: {x: 400, y: 256},
-            focusWidth: 256
+            focusWidth: 221
         }
     },
     {
@@ -78,7 +78,7 @@ var MOCK_USERS = [
             width: 816,
             height: 513,
             focusCenter: {x: 400, y: 256},
-            focusWidth: 256
+            focusWidth: 221
         }
     },
     {
@@ -102,7 +102,7 @@ var MOCK_USERS = [
             width: 816,
             height: 513,
             focusCenter: {x: 400, y: 256},
-            focusWidth: 256
+            focusWidth: 221
         }
     },
     {
@@ -126,7 +126,7 @@ var MOCK_USERS = [
             width: 816,
             height: 513,
             focusCenter: {x: 400, y: 256},
-            focusWidth: 256
+            focusWidth: 221
         }
     },
     {
