@@ -1,22 +1,45 @@
-@import 'darkTheme.sass';
+@import 'lightTheme.sass';
 
 *{
   margin:0;
     padding:0;
+    box-sizing:border-box;
   }
-
+.button {
+  width:20%;
+  height:80%;
+  margin-top:10%;
+  display:none;
+  
+}
+h1{
+  font-family: 'Coda', cursive;
+  color:$background;
+  font-size:5em;
+}
 html,body{
   height:100%;
     color: $text;
     background-color: $background;
     text-align: center;
   }
-
-.top-bar {
-  background-color: $highlight;
-  color: #000;
+  div{
+  height:100%;
   }
-
+nav{
+  position:fixed;
+  height:15%;
+  left:0;
+  right:0;
+  top:0;
+  background-color: $highlight;
+  opacity:0.99;
+  border-bottom: solid $border-light;
+  .top-bar {
+    color: #000;
+  }
+  z-index:2;
+}
 @function calc-em($target-px, $context) {
   @return ($target-px / $context) * 1em;
   }
@@ -33,7 +56,10 @@ html,body{
 
   }
 
+main{
+  padding-top:15%;
 
+}
 .avatar-hex {
   @include hex-aspect-ratio(33);
   -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
